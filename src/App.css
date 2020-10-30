@@ -83,3 +83,34 @@
 .header_input > h4 {
   margin-left: 10px;
 }
+
+
+
+/* Sidebar style */
+
+.sidebar {
+  flex: 0.2;
+  /* background-color: lightgray; */
+}
+
+.sidebar_row {
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.sidebar_row:hover {
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+.sidebar_row > h4 {
+  margin-left: 15px;
+  font-weight: 600;
+}
+
+.sidebar_row > .MuiSvgIcon-root {
+  font-size: xx-large;
+  color: #2e81f4;
+}
