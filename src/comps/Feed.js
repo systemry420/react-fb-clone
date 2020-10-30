@@ -5,7 +5,6 @@ import StoryReel from './StoryReel'
 function Feed() {
     return (
         <div className="feed">
-            Feed
             {/* stories */}
             <StoryReel />
             {/* form */}

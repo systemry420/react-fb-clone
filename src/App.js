@@ -7,13 +7,13 @@ import Widgets from './comps/Widgets'
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       {/* Header */}
       <Header />
 
       <div className="app_body">
         {/* Sidebar */}
-        {/* <Sidebar /> */}
+        <Sidebar />
 
         {/* Feed */}
         <Feed />
