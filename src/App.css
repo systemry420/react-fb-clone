@@ -29,8 +29,57 @@
 .header_left {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .header_left > img{
   height: 40px;
+}
+
+.header_center {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.header_option {
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  cursor: pointer;
+}
+
+.header_option:hover {
+  background-color: #eff2f5;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.header_option_active {
+  border-bottom: 4px solid #2e81f4;
+}
+
+.header_option_active > .MuiSvgIcon-root {
+  color: #2e81f4;
+}
+
+.header_option > .MuiSvgIcon-root{
+  color: gray;
+}
+
+.header_option:hover > .MuiSvgIcon-root{
+  color: #2e81f4;
+}
+
+.header_right {
+  display: flex;
+}
+
+.header_info {
+  display: flex;
+  align-items: center;
+}
+
+.header_input > h4 {
+  margin-left: 10px;
 }

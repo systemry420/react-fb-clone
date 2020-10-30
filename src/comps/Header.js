@@ -20,12 +20,12 @@ function Header() {
                 <img src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=512&h=512" alt="logo" />
                 <div className="header_input">
                     <SearchIcon />
-                    <input type="text" />
+                    <input type="text" placeholder="Search facebook"/>
                 </div>
             </div>
 
-            <div className="header_middle">
-                <div className="header_option">
+            <div className="header_center">
+                <div className="header_option header_option_active">
                     <HomeIcon />
                 </div>
                 <div className="header_option">
