@@ -7,12 +7,12 @@ import Widgets from './comps/Widgets'
 import Login from './comps/Login'
 
 function App() {
-  const user = "hello";
+  const user = null;
 
   return (
     <div className="app">
       {/* if user not logged in then go to login, else display main content */}
-      
+
       {!user ? (
         <Login />
       ): (
