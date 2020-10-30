@@ -4,23 +4,35 @@ import Header from './comps/Header'
 import Sidebar from './comps/Sidebar'
 import Feed from './comps/Feed'
 import Widgets from './comps/Widgets'
+import Login from './comps/Login'
 
 function App() {
+  const user = "hello";
+
   return (
     <div className="app">
-      {/* Header */}
-      <Header />
+      {/* if user not logged in then go to login, else display main content */}
+      
+      {!user ? (
+        <Login />
+      ): (
+        <div>
+          {/* Header */}
+          <Header />
 
-      <div className="app_body">
-        {/* Sidebar */}
-        <Sidebar />
+          <div className="app_body">
+            {/* Sidebar */}
+            <Sidebar />
 
-        {/* Feed */}
-        <Feed />
+            {/* Feed */}
+            <Feed />
 
-        {/* Widgets */}
-        <Widgets />
-      </div>
+            {/* Widgets */}
+            <Widgets />
+          </div>
+        </div>
+      )
+      }
     </div>
   );
 }

@@ -34,7 +34,8 @@ function Feed() {
     return (
         <div className="feed">
             {/* stories */}
-            {/* <StoryReel /> */}
+            <StoryReel />
+            
             {/* form */}
             <Form />
 

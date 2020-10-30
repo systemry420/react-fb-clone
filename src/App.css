@@ -307,6 +307,30 @@
   border-radius: 15px;
 }
 
+.login {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.login > button {
+  width: 200px;
+  margin-top: 30px;
+  background-color: #2e81f4;
+  color: #eff2f5;
+  font-weight: 800;
+}
+
+.login > button:hover {
+  background-color: #1b4f99;
+}
+
 /* media query */
 
 @media screen and (max-width: 700px){
@@ -316,6 +340,6 @@
 
   .feed {
     padding: 0px;
-    margin: 0;
+    margin: 10px;
   }
 }
