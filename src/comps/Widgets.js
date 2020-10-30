@@ -1,8 +1,9 @@
 import React from 'react'
+import './../App.css'
 
 function Widgets() {
     return (
-        <div>
+        <div className="widgets">
             Widgets
         </div>
     )

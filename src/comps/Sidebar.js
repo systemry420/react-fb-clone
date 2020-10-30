@@ -51,7 +51,7 @@ function Sidebar() {
             />
 
             {data.map((item, i)=>{
-                return <SidebarRow {...item} />
+                return <SidebarRow {...item} key={i} />
             })}
         </div>
     )
