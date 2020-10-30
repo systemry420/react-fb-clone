@@ -98,8 +98,8 @@
 /* Sidebar style */
 
 .sidebar {
-  flex: 0.2;
-  /* background-color: lightgray; */
+  flex: 0.4;
+  padding: 25px 10px;
 }
 
 .sidebar_row {
@@ -160,4 +160,13 @@
   bottom: 10px;
   left: 20px;
   color: #fff;
+}
+
+.feed {
+  flex: 1;
+  padding: 30px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
